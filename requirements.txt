@@ -1,8 +1,10 @@
-from tensorflow.keras.models import load_model
-
-print("Loading model...")
-
-model = load_model("speech_emotion_lstm_model.h5", compile=False)
-
-print("SUCCESS!")
-print(model.summary())
+tensorflow==2.13.0
+keras==2.13.1
+gradio
+librosa
+numpy
+pandas
+scikit-learn
+resampy
+soundfile
+audioread
